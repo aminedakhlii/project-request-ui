@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #7c122e;
+  --text-primary: #1a1a1a;
+  --text-secondary: #666;
+  --border-light: #e5e7eb;
+  --bg-secondary: #f7f9fc;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, system-ui, -apple-system, sans-serif;
+  background: #f0f2f5;
+  color: var(--text-primary);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
